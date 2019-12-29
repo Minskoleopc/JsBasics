@@ -216,7 +216,7 @@ if (age < 13) {
 /*****************************
 * The Ternary Operator and Switch Statements
 */
-/*
+
 var firstName = 'John';
 var age = 14;
 
@@ -226,11 +226,83 @@ age >= 18 ? console.log(firstName + ' drinks beer.') : console.log(firstName + '
 var drink = age >= 18 ? 'beer' : 'juice';
 console.log(drink);
 
-(if (age >= 18) {
+if (age >= 18) {
     var drink = 'beer';
 } else {
     var drink = 'juice';
 }
+
+// Switch Statements 
+
+var professsion  = "Student"
+
+switch(professsion){
+
+case 'Teacher':
+     'Student';     
+    console.log("Hello Teacher");
+    break;      
+case 'Artist':
+    console.log("Hello Artist");
+    break;
+case' ':
+    console.log("Hello Sports");
+
+            
+case 'Doctor':
+    console.log("Hello Doctor");
+
+default :
+    console.log('Default')    
+
+}
+
+
+var a = 10 ;
+var b = 20 ;
+var c = 30 ;
+
+switch(true){
+
+case a > b && a > c:
+    console.log('a is greater');
+
+case  b > a && b > c:
+    console.log('b is greater');
+
+default:
+    console.log('c is greater');
+
+}
+
+
+
+
+// function calculateAge(currentYear , YearofBirth){
+//     console.log("Heelo");
+//     return currentYear - YearofBirth
+    
+// }
+
+// var y = calculateAge(2020,1989)
+// console.log(y);
+
+
+var  calculateAge = function(currentYear , YearofBirth){
+    console.log("Heelo");
+    return currentYear - YearofBirth
+    
+};
+
+var y = calculateAge(2020,1989)
+console.log(y);
+
+
+
+
+
+
+
 
 
 
